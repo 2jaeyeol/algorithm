@@ -32,7 +32,7 @@ int main(){
         graph[u].push_back(v);
         graph[v].push_back(u);
     }
-
+    
     for(int i=1; i<=n;i++)
         sort(graph[i].begin(), graph[i].end());
     
