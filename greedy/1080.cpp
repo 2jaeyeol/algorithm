@@ -15,11 +15,8 @@ void XOR(int y, int x) {
     for (int i = y; i < y + 3; i++) 
         for (int j = x; j < x + 3; j++) {
             int temp = arr[i][j];
-
             arr[i][j] = 1 - temp;
-
         }
-    
 }
 
 int main() {
