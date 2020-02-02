@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-#include <iostream>
-#include <algorithm>
-
-using namespace std;
-int time[16];
-int profit[16];
-int value = 0;
-
-void solve(int now, int sum , int plus_sum){
-    
-}
-
-int main(){
-    int N;
-
-    cin >> N;
-
-    for(int i = 1; i<=N; i ++)
-        cin >> time[i] >> profit[i];
-
-    for(int i=1; i<=N; i++)
-        solve(i,0,0);
-=======
 #include <algorithm>
 #include <iostream>
  
@@ -59,5 +35,4 @@ int main(){
     
     cout << max_val;
     return 0;
->>>>>>> a299c647eaa3d6ca566383b0b9ac9b075a98b10f
 }
